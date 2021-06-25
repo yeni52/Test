@@ -1,0 +1,11 @@
+body {
+    background-color: green;
+  }
+.fussball{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    animation:spin 1s reverse 1;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
